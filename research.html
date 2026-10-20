@@ -1,0 +1,19 @@
+---
+layout: default
+title: Research
+permalink: /research/
+---
+{%- comment -%} The entries live in _data/research.yml. {%- endcomment -%}
+<h2>Referred Publication</h2>
+<ul class="citations">
+  {%- for entry in site.data.research.publications %}
+  <li>{{ entry | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {%- endfor %}
+</ul>
+
+<h2>Presentations</h2>
+<ul class="citations">
+  {%- for entry in site.data.research.presentations %}
+  <li>{{ entry | markdownify | remove: '<p>' | remove: '</p>' | strip }}</li>
+  {%- endfor %}
+</ul>

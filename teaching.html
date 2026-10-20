@@ -1,0 +1,24 @@
+---
+layout: default
+title: Teaching
+permalink: /teaching/
+---
+{%- comment -%} The courses live in _data/teaching.yml. {%- endcomment -%}
+{%- for school in site.data.teaching %}
+{%- assign first_school = forloop.first %}
+<h2>{{ school.school }}</h2>
+<div class="terms">
+  {%- for t in school.terms %}
+  <section class="term{% if first_school and forloop.first %} current{% endif %}">
+    {%- if t.term %}
+    <h3>{{ t.term }}</h3>
+    {%- endif %}
+    <ul>
+      {%- for c in t.courses %}
+      <li>{% if c.code %}{{ c.code }}&nbsp; {% endif %}{% if c.link %}<a href="{{ c.link }}">{{ c.title | escape }}</a>{% else %}{{ c.title | escape }}{% endif %}</li>
+      {%- endfor %}
+    </ul>
+  </section>
+  {%- endfor %}
+</div>
+{%- endfor %}

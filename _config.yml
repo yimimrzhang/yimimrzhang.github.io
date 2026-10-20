@@ -1,0 +1,21 @@
+# Site-wide settings. After editing this file, GitHub rebuilds the site in a minute or two.
+
+title: Yimin Zhang
+tagline: Associate Professor of Statistics
+description: Yimin Zhang, Associate Professor of Statistics, Department of Mathematics and Statistics, Villanova University.
+
+# Top menu, in order. "url" must match the page's permalink.
+menu:
+  - title: About Me
+    url: /
+  - title: Curriculum Vitae
+    url: /cirriculum-vitae/
+  - title: Research
+    url: /research/
+  - title: Teaching
+    url: /teaching/
+
+# Files in the repository that are not part of the website.
+exclude:
+  - HOW-TO-UPDATE.md
+  - README.md

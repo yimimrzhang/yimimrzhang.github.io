@@ -1,0 +1,49 @@
+# Entries shown on the Research page. Newest first: add new entries at the TOP of each list.
+#
+# Each entry is one line that starts with "- '" and ends with "'".
+# If an entry itself contains a straight apostrophe ('), type it twice ('').
+# To make part of an entry a link, write [text](https://web.address).
+
+publications:
+  - 'Frey, J., and Zhang, Y. (2025). “Robust adjusted Wald confidence intervals for a proportion based on ranked-set sampling,” Journal of Statistical Computation and Simulation, 95(13), 2768-2790.'
+  - 'Muller, M., de Almeida Correia, G. H., Park, S., Zhang, Y., Fusco, B., & Lee, R. (2025). “Strategic sustainability assessment of rideshare and automated vehicles using the analytical hierarchy process (AHP),” Research in Transportation Business & Management, 60, 101336.'
+  - 'Muller, M., de Almeida Correia, G. H., Park, S., Zhang, Y., Fusco, B., & Lee, R. (2024). “Enhancement of the Impacts 2050 Model to Enable a Whole System Sustainability Assessment of Rideshare,” Multimodal Transportation, 3(4), 100171.'
+  - 'Scolio, M., Kremer, P., Zhang, Y., and Shakya, K. M. (2024). “Spatial-temporal modeling of the relationship between surface temperature and air temperature in metropolitan urban systems,” Urban Climate, 55, 101921.'
+  - 'Frey, J. and Zhang, Y. (2023). “Melded Confidence Intervals Do Not Provide Guaranteed Coverage,” The American Statistician, 78(3), 273-279.'
+  - 'Frey, J. and Zhang, Y. (2023). “Nonparametric Maximum Likelihood Estimation of the Distribution Function Using Ranked-Set Sampling,” Journal of the Korean Statistical Society, 52(4), 901-920.'
+  - 'Frey, J. and Zhang, Y. (2021) “Robust Confidence Intervals for a Proportion Using Ranked-Set Sampling,” Journal of the Korean Statistical Society, 50(4), 1009-1028.'
+  - 'Frey, J. and Zhang, Y. (2019) “Improved Exact Confidence Intervals for a Proportion Using Ranked-Set Sampling,” Journal of the Korean Statistical Society, 48(3), 493-501.'
+  - 'Frey, J. and Zhang, Y. (2019) “An Omnibus Two-Sample Test for Ranked-Set Sampling Data,” Journal of the Korean Statistical Society, 48(1), 106-116.'
+  - 'Shakya1, K., Peltier, R., Zhang, Y., Pandey., B. (2019) “Roadside exposure and inflammation biomarkers among a cohort of traffic police in Kathmandu, Nepal.” International Journal of Environmental Research and Public Health, 16(3), 377.'
+  - 'Kremer, P. , Larondelle, N., Zhang, Y., Pasles, E., and Haase, D. (2018) “Within-class and neighborhood effects on the relationship between composite urban classes and surface temperature, ” Sustainability, 10(3), 645.'
+  - 'Frey, J. and Zhang, Y. (2018) “An Algorithm with Applications in Ranked Set Sampling.” Journal of Statistical Computation and Simulation, 88(3), 471-481.'
+  - 'Frey, J. and Zhang, Y. (2017) “Testing Perfect Rankings in Ranked-Set Sampling with Binary Data.” The Canadian Journal of Statistics, 45(3), 326-339.'
+  - 'Frey, J. and Zhang, Y. (2017) “What Do Interpolated Nonparametric Confidence Intervals for Population Quantiles Guarantee?” The American Statistician, 71(4), 305-309.'
+
+presentations:
+  - '“The Ranked-Set Sampling Fisher’s Exact Test”, The 2026 Joint Statistical Meetings, Boston, Massachusetts, August 2026.'
+  - '“Assumption-Free Nonparametric Maximum Likelihood Estimation of the Distribution Function Using Ranked-Set Sampling”, The 2025 Joint Statistical Meetings, Nashville, Tennessee, August 2025.'
+  - '“Robust Adjusted Wald Confidence Intervals for a Proportion Based on Ranked-Set Sampling”, Invited, School of Mathematical Sciences, Dalian University of Technology, China, July 2025.'
+  - '“Robust Adjusted Wald Confidence Intervals for a Proportion Based on Ranked-Set Sampling”, Invited, School of Mathematics and Statistics, Northeast Normal University, China, June 2025.'
+  - '“Robust Adjusted Wald Confidence Intervals for a Proportion Based on Ranked-Set Sampling”, The 2024 Joint Statistical Meetings, Portland, Oregon, August 2024.'
+  - '“Nonparametric Maximum Likelihood Estimation for Distribution Functions with Ranked Set Samples”, Invited, School of Mathematics and Statistics, Jishou University, China, June 2024.'
+  - '“Melded Confidence Intervals Do Not Provide Guaranteed Coverage”, Invited, School of Mathematical Sciences, Dalian University of Technology, China, June 2024.'
+  - '“Nonparametric Maximum Likelihood Estimation for Distribution Functions with Ranked Set Samples”, The 2023 Joint Statistical Meetings, Toronto, Canada, August 2023.'
+  - '“Robust Confidence Intervals for a Proportion Using Ranked-Set Sampling”, The 2020 Joint Statistical Meetings, Virtual, August 2020.'
+  - '“Improved Exact Confidence Intervals for A Proportion Using Ranked-set Sampling”, The 2019 Joint Statistical Meetings, Denver, July 2019.'
+  - '“Hybrid Flipped Classroom: Is It for You?”, sponsored by Villanova Institute for Teaching and Learning minigrant, 2019 Teaching and Learning Strategies Program at Villanova, May 2019.'
+  - '“Deep Learning in Bone Age Assessment – Explore the Future of Radiology”, VangumalliG, D., and Zhang Y., won the first place in Graduate Students for Astronomy, Physics, CS, Math & Stats category, Villanova 2018 Sigma Xi CRF Student Research Poster Symposium, April 2018.'
+  - '“Testing Perfect Rankings in Ranked-set Sampling with Binary Data”, Invited, International Conference on Mathematics and Statistics (ICOMAS 2018), Memphis, May 2018.'
+  - '“An Introduction to Ranked-Set Sampling”, Invited, The Villanova Center for Analytics of Dynamic Systems (VCADS) meeting, Villanova, February 2018.'
+  - '“What Do Interpolated Nonparametric Confidence Intervals for Population Quantiles Guarantee?”, Invited, Department of Statistics, Oklahoma State University, November 2017.'
+  - '“Assessment of Health Effects of Particulate Pollution among Traffic Police in Kathmandu, Nepal using Biomarkers”, Shakya, K., Peltier, R., Zhang, Y., and Pandey, B.D., The 2017 Annual International Society of Exposure Science (ISES) Meeting, Research Triangle Park, October 2017.'
+  - '“What Do Interpolated Nonparametric Confidence Intervals for Population Quantiles Guarantee?”, The 2017 Joint Statistical Meetings, Baltimore, August 2017.'
+  - '“An Algorithm and A Stategy for Nonparametric Inference under Imperfect Rankings in Ranked- Set Sampling.” Invited, School of Mathematical Sciences, Dalian University of Technology, China, May 2017.'
+  - '“An Algorithm with applications in Ranked Set Sampling.”, The 2016 Joint Statistical Meetings, August 2016.'
+  - '“Multiple comparisons and sequential testing procedures.”, Department of Mechanical Engineering, Villanova University, May 2016.'
+  - '“The Restricted Scheffe Method Using the Minimal Cone Approach for Multiple Comparisons”, The 2015 Joint Statistical Meetings, Seattle, August 2015.'
+  - '“Restricted Scheffe Method Using Minimal Cone Approach for Multiple Comparisons.”, The 2014 Villanova University Department of Mathematics and Statistics colloquium, December 2014.'
+  - '“Sequential Testing Procedures for Single-step Methods.”, The 2014 Joint Statistical Meetings, Boston, August 2014.'
+  - '“Sequential Testing Procedures for Single-step Methods.”, Oklahoma State University 25th Annual Research Symposium, February 2014.'
+  - '“Simultaneous Confidence Intervals Using the Restricted Scheffe Method.”, 2013 Oklahoma State University Statistics Department Seminar Series, April 2013.'
+  - '“Simultaneous Confidence Intervals Using the Restricted Scheffe Method.”, Oklahoma State University 24th Annual Research Symposium, February 2013.'

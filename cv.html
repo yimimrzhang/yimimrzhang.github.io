@@ -1,0 +1,11 @@
+---
+layout: default
+title: Curriculum Vitae
+permalink: /cirriculum-vitae/
+---
+{%- comment -%} To update the CV, replace assets/cv.pdf with the new file (same name). {%- endcomment -%}
+{% assign cv = '/assets/cv.pdf' | relative_url %}
+<p class="cv-download"><a href="{{ cv }}">Curriculum Vitae</a> (for download)</p>
+
+<iframe class="pdf-frame" src="{{ cv }}#view=FitH" title="Curriculum Vitae"></iframe>
+<p class="pdf-fallback">If the CV doesn't display above, <a href="{{ cv }}">open it as a PDF</a>.</p>

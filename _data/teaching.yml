@@ -1,0 +1,186 @@
+# Courses shown on the Teaching page.
+#
+# Newest term goes at the TOP. The top term of the first school is highlighted
+# automatically as the current term.
+#
+# Each course has:
+#   code:  course number (optional)
+#   title: course name
+#   link:  web address (optional; makes the course name a link)
+#
+# To add a new term, copy this block, paste it under "terms:" above the
+# current top term, and change the details (keep the indentation the same):
+#
+#     - term: Spring 2027
+#       courses:
+#         - code: STAT 8406
+#           title: Regression Methods
+#           link: https://brightspace.villanova.edu/d2l/home/12345
+
+- school: Villanova University
+  terms:
+    - term: Fall 2026
+      courses:
+        - code: STAT 4480
+          title: Data Mining
+          link: https://brightspace.villanova.edu/d2l/home/57877
+        - code: STAT 8480
+          title: Data Mining & Predictive Analytics
+          link: https://brightspace.villanova.edu/d2l/home/57895
+
+    - term: Spring 2026
+      courses:
+        - code: STAT 8406
+          title: Regression Methods
+
+    - term: Fall 2025
+      courses:
+        - code: STAT 4480
+          title: Data Mining
+        - code: STAT 8480
+          title: Data Mining & Predictive Analytics
+
+    - term: Spring 2025
+      courses:
+        - code: STAT 5700
+          title: Probability
+        - code: STAT 8490
+          title: Deep Learning
+
+    - term: Spring 2024
+      courses:
+        - code: STAT 4480
+          title: Data Mining
+        - code: STAT 8401
+          title: Theory of Statistical Inference
+
+    - term: Fall 2023
+      courses:
+        - code: STAT 4310
+          title: Statistical Methods
+        - code: STAT 8480
+          title: Data Mining & Predictive Analytics
+
+    - term: Spring 2023
+      courses:
+        - code: STAT 4310
+          title: Statistical Methods
+        - code: STAT 8490
+          title: Deep Learning
+
+    - term: Fall 2022
+      courses:
+        - code: STAT 5700
+          title: Math Statistics I
+        - code: STAT 8480
+          title: Data Mining & Predictive Analytics
+
+    - term: Spring 2022
+      courses:
+        - code: STAT 4480
+          title: Data Mining
+        - code: STAT 8406
+          title: Regression Methods
+
+    - term: Fall 2021
+      courses:
+        - code: STAT 4310
+          title: Statistical Methods
+        - code: STAT 7404
+          title: Statistical Methods
+
+    - term: Fall 2020
+      courses:
+        - code: MAT 4310
+          title: Statistical Methods
+        - code: MAT 8796
+          title: Deep Learning
+
+    - term: Spring 2020
+      courses:
+        - code: MAT 5900
+          title: "Seminar: Data Mining"
+        - code: MAT 8406
+          title: Regression Methods
+
+    - term: Fall 2019
+      courses:
+        - code: MAT 8480
+          title: Data Mining & Analytics (2 sections)
+
+    - term: Spring 2019
+      courses:
+        - code: MAT 5920
+          title: Data Mining
+        - code: MAT 8406
+          title: Regression Methods
+        - title: DREAMS 2019
+
+    - term: Fall 2018
+      courses:
+        - code: MAT 4310
+          title: Stats Methods
+        - code: MAT 5993
+          title: Introduction to Data Mining (independent study)
+        - code: MAT 8400
+          title: Statistical Theory I
+
+    - term: Spring 2018
+      courses:
+        - title: Math Discovery Bootcamp 2018
+        - code: MAT 4310
+          title: Stats Methods
+        - code: MAT 8480
+          title: Data Mining & Analytics
+        - code: MAT 8800
+          title: Deep Learning (independent study)
+
+    - term: Fall 2017
+      courses:
+        - title: Sabbatical Leave
+
+    - term: Spring 2017
+      courses:
+        - code: MAT 8406
+          title: Regression Methods
+        - code: MAT 1230
+          title: Introductory Statistics I
+
+    - term: Fall 2016
+      courses:
+        - code: MAT 5700
+          title: Mathematical Statistics I
+        - code: MAT 8790
+          title: Data Mining & Analytics
+
+    - term: Spring 2016
+      courses:
+        - code: MAT 4310
+          title: Stats Methods (2 sections)
+        - code: MAT 8406
+          title: Regression Methods
+
+    - term: Fall 2015
+      courses:
+        - code: MAT 8790
+          title: Data Mining & Analytics
+        - code: MAT 5700
+          title: Mathematical Statistics I
+
+    - term: Spring 2015
+      courses:
+        - code: MAT 7405
+          title: Statistical Methods II (2 sections)
+
+    - term: Fall 2014
+      courses:
+        - code: MAT 1430
+          title: Business Statistics
+        - code: MAT 8400
+          title: Statistical Theory
+
+- school: Oklahoma State University
+  terms:
+    - courses:
+        - code: STAT 2013
+          title: Elementary Statistics (3 sections)
