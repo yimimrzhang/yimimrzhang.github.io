@@ -83,42 +83,44 @@ parts in `< >` alone). `<br>` means "new line"; each paragraph sits between `<p>
 
 ---
 
-## One-time setup (publishing the site)
+## How the site is hosted (for reference)
 
-1. Create a free account at https://github.com and sign in.
-2. Create a new **public** repository (the **+** at top right, then **New repository**).
-   - Name it **`<your-username>.github.io`** for the site to live at
-     `https://<your-username>.github.io/`, or any name (for example `website`) for
-     `https://<your-username>.github.io/website/`. Either works with the steps below.
-3. On the new repository's page, click **uploading an existing file**, drag in **everything
-   inside** the `github-site` folder (including the `_data` and `_layouts` folders), and
-   commit.
-4. Go to **Settings > Pages**. Under **Build and deployment**, set **Source** to
-   **Deploy from a branch**, branch **main**, folder **/ (root)**, and **Save**.
-5. After a minute or two, the address appears at the top of that page. Open it to check.
+| | |
+|---|---|
+| Address | https://yimin.wiki (www.yimin.wiki and yimimrzhang.github.io redirect to it) |
+| GitHub repository | `yimimrzhang/yimimrzhang.github.io`, published from branch **main**, folder **/ (root)** (**Settings > Pages**) |
+| Domain | Registered at Namecheap. Its DNS is managed in the Namecheap **hosting cPanel > Zone Editor**, not in the domain's "Advanced DNS" tab. |
 
-### Using zhangyimin.com (optional)
+The domain's DNS records that point it at GitHub:
 
-Do this once the github.io address looks right. Until then, zhangyimin.com keeps showing the
-old WordPress site.
+| Name | Type | Record |
+|---|---|---|
+| yimin.wiki. | A | 185.199.108.153 |
+| yimin.wiki. | A | 185.199.109.153 |
+| yimin.wiki. | A | 185.199.110.153 |
+| yimin.wiki. | A | 185.199.111.153 |
+| www.yimin.wiki. | CNAME | yimimrzhang.github.io |
 
-1. In the repository, **Settings > Pages > Custom domain**: enter `zhangyimin.com` and
-   **Save**. (This adds a file called `CNAME` to the repository; leave it there.)
-2. At the company that manages the domain's DNS (currently WordPress.com, under
-   **Domains > zhangyimin.com > DNS records**), replace the existing A records for the bare
-   domain with these four:
+Keep the MX and `v=spf1` TXT records as they are; they belong to the hosting's email.
 
-   | Type | Name | Value |
-   |---|---|---|
-   | A | @ | 185.199.108.153 |
-   | A | @ | 185.199.109.153 |
-   | A | @ | 185.199.110.153 |
-   | A | @ | 185.199.111.153 |
-   | CNAME | www | `<your-username>.github.io` |
+**Don't delete the `CNAME` file** in the repository. It tells GitHub to serve the site at
+yimin.wiki. If the domain ever stops working, check **Settings > Pages > Custom domain**
+still says `yimin.wiki`, and that **Enforce HTTPS** is ticked.
 
-3. Wait for the DNS check in **Settings > Pages** to pass (from minutes to a day), then tick
-   **Enforce HTTPS**.
+**Moving the domain's DNS:** if the Namecheap hosting plan is ever cancelled, its DNS stops
+too. Before that happens, switch the domain to Namecheap BasicDNS (Domain List > yimin.wiki
+> Manage > Nameservers) and add the five records above under **Advanced DNS**.
 
-Page addresses stay the same as on the old site (`/cirriculum-vitae/`, `/research/`,
-`/teaching/`), so existing links to those pages keep working. Links to old lecture-video
-pages and the contact form show a "Page not found" page.
+Page addresses are the same as on the old zhangyimin.com site (`/cirriculum-vitae/`,
+`/research/`, `/teaching/`). Old lecture-video and contact-form addresses show a
+"Page not found" page.
+
+### Setting it up again from scratch
+
+1. Create a **public** GitHub repository named `<username>.github.io`.
+2. Click **uploading an existing file**, drag in **everything inside** the `github-site`
+   folder (including `_data`, `_layouts`, `assets` and `CNAME`), and commit.
+3. **Settings > Pages**: Source **Deploy from a branch**, branch **main**, **/ (root)**,
+   **Save**. Enter the custom domain and **Save**.
+4. Point the domain's DNS at GitHub with the records above, replacing `yimimrzhang` with the
+   new username. When the DNS check passes, tick **Enforce HTTPS**.
