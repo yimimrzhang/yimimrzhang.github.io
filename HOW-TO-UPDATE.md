@@ -90,6 +90,7 @@ parts in `< >` alone). `<br>` means "new line"; each paragraph sits between `<p>
 | Address | https://zhangyimin.com (www.zhangyimin.com and yimimrzhang.github.io redirect to it) |
 | GitHub repository | `yimimrzhang/yimimrzhang.github.io`, published from branch **main**, folder **/ (root)** (**Settings > Pages**) |
 | Domain | Registered at Namecheap (auto-renew on). Its DNS is **Namecheap PremiumDNS**: Domain List > zhangyimin.com > Manage > **Advanced DNS**. |
+| Visitor stats | **Cloudflare Web Analytics** (no cookies): dash.cloudflare.com > **Analytics & Logs** > **Web Analytics**. The tracking code is one line near the end of `_layouts/default.html`; deleting that line turns it off. |
 
 The domain's DNS records that point it at GitHub:
 
