@@ -87,33 +87,29 @@ parts in `< >` alone). `<br>` means "new line"; each paragraph sits between `<p>
 
 | | |
 |---|---|
-| Address | https://yimin.wiki (www.yimin.wiki and yimimrzhang.github.io redirect to it) |
+| Address | https://zhangyimin.com (www.zhangyimin.com and yimimrzhang.github.io redirect to it) |
 | GitHub repository | `yimimrzhang/yimimrzhang.github.io`, published from branch **main**, folder **/ (root)** (**Settings > Pages**) |
-| Domain | Registered at Namecheap. Its DNS is managed in the Namecheap **hosting cPanel > Zone Editor**, not in the domain's "Advanced DNS" tab. |
+| Domain | Registered at Namecheap (auto-renew on). Its DNS is **Namecheap PremiumDNS**: Domain List > zhangyimin.com > Manage > **Advanced DNS**. |
 
 The domain's DNS records that point it at GitHub:
 
-| Name | Type | Record |
+| Type | Host | Value |
 |---|---|---|
-| yimin.wiki. | A | 185.199.108.153 |
-| yimin.wiki. | A | 185.199.109.153 |
-| yimin.wiki. | A | 185.199.110.153 |
-| yimin.wiki. | A | 185.199.111.153 |
-| www.yimin.wiki. | CNAME | yimimrzhang.github.io |
+| A Record | @ | 185.199.108.153 |
+| A Record | @ | 185.199.109.153 |
+| A Record | @ | 185.199.110.153 |
+| A Record | @ | 185.199.111.153 |
+| CNAME Record | www | yimimrzhang.github.io |
 
-Keep the MX and `v=spf1` TXT records as they are; they belong to the hosting's email.
+There is no email on this domain. The Mail Settings section can stay as it is.
 
 **Don't delete the `CNAME` file** in the repository. It tells GitHub to serve the site at
-yimin.wiki. If the domain ever stops working, check **Settings > Pages > Custom domain**
-still says `yimin.wiki`, and that **Enforce HTTPS** is ticked.
+zhangyimin.com. If the domain ever stops working, check **Settings > Pages > Custom domain**
+still says `zhangyimin.com`, and that **Enforce HTTPS** is ticked.
 
-**Moving the domain's DNS:** if the Namecheap hosting plan is ever cancelled, its DNS stops
-too. Before that happens, switch the domain to Namecheap BasicDNS (Domain List > yimin.wiki
-> Manage > Nameservers) and add the five records above under **Advanced DNS**.
-
-Page addresses are the same as on the old zhangyimin.com site (`/cirriculum-vitae/`,
-`/research/`, `/teaching/`). Old lecture-video and contact-form addresses show a
-"Page not found" page.
+Page addresses are the same as on the old WordPress site (`/cirriculum-vitae/`,
+`/research/`, `/teaching/`). Old lecture-video, course and contact-form addresses show a
+"Page not found" page. The course pages were saved offline in `D:\Yimin_Course_Pages\`.
 
 ### Setting it up again from scratch
 
